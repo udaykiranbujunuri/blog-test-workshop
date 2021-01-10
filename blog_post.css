@@ -1,0 +1,126 @@
+body{
+    background-color: ghostwhite;
+    
+}
+.blog-container{
+    margin-left: 12%;
+    background-color: white;
+    width: 50%;
+    
+}
+
+.post-heading{
+    font-family: sans-serif;
+    text-decoration: underline;
+    
+}
+
+.blog-img{
+    width:100%;
+    margin-top:10px;
+    margin-left: 0;
+    
+}
+@media only screen and (max-width: 600px) {
+.blog-img{
+    width:80%;
+    margin-top:10px;
+    margin-left: 10px;
+    }
+    .blog-container{
+    margin-left: 2%;
+    width: 100%;
+    
+}
+    .social i{
+    float: right;
+    font-size: 20px;
+    margin: 0px 8px;
+       
+    padding: 2px;
+      transition: 0.3s;
+    
+    
+}
+}
+
+.user-info{
+    background-color:aliceblue;
+    margin-top: 15px;
+}
+.user-image{
+    width:35px;
+    padding: 10px;
+
+    position: relative;
+    float: left;
+    
+    
+}
+.user-name{
+    padding-top:10px;
+    padding-bottom: 3px;;
+    font-weight:bold;
+     position: relative;
+}
+.user-upload-time{
+    color:black;
+    float: left;
+    position: inline;
+}
+.social i{
+    float: right;
+    font-size: 25px;
+    margin: 0px 10px;
+    padding: 4px;
+      transition: 0.3s;
+    
+    
+}
+.fa-whatsapp{
+ color: #25d366;
+}
+.fa-google{
+color:#d34836;
+}
+.fa-twitter{
+color:	#1DA1F2;
+}
+.fa-facebook-official{
+    color:#4267B2;
+}
+.fa-whatsapp:hover{
+   background-color: #25d366;
+    color:white;
+    border-radius: 50px;
+    
+}
+.fa-google:hover{
+  background-color: #d34836;
+    color:white;
+    border-radius: 50px;
+    
+}
+.fa-twitter:hover{
+  background-color: #1DA1F2;
+    color:white;
+    border-radius: 50px;
+    
+}
+.fa-facebook-official:hover{
+      background-color: #4267B2;
+    color:white;
+    border-radius: 50px;
+    
+}
+
+
+.user-name div{
+    margin-top: -10px;
+    margin-right: 10%;
+    float: right;
+    position:relative;
+}
+.blog-content{
+    margin: 10px;
+}
